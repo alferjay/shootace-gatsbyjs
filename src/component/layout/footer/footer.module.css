@@ -1,0 +1,70 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.line span {
+  width: 75px;
+  height: 5px;
+}
+
+.line span:first-child {
+  background-color: #F5A623;
+}
+
+.line span:last-child {
+  background-color: #FFF;
+}
+
+.connect {
+  margin-top: 80px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.social li {
+  margin: 0 5px;
+  display: inline-block;
+  background-color: #F5A623;
+  border-radius: 2px;
+}
+
+.social li:hover {
+  background-color: #8c5804;
+}
+
+.social li a {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+}
+
+.copywrite, .copywrite a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copywrite a:hover {
+  color: #F5A623;
+}
