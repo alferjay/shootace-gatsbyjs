@@ -6,11 +6,11 @@ import {row, nav} from './header.module.css'
 const Header = ()=> {
   return(
     <header>
-      <div className={container}>
+      <div className={`container ${container}`}>
         <div className={row}>
           <Link to="/">
           <svg width="247px" height="34px" viewBox="0 0 247 34" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Poppins-Bold, Poppins" font-size="45" font-weight="bold">
+              <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" fontFamily="Poppins-Bold, Poppins" fontSize="45" fontWeight="bold">
                   <g id="homepage" transform="translate(-141.000000, -45.000000)">
                       <text id="SHOOTACE">
                           <tspan x="140" y="78" fill="#F5A623">SHOOT</tspan>

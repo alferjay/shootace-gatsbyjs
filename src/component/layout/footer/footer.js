@@ -7,12 +7,12 @@ import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube} from 'react-i
 
 const Footer = ()=> {
   return(
-    <footer class={footer}>
+    <footer className={footer}>
       <div className={`${container} ${footerStyles.footer}`}>
         <div>
           <Link to="/">
             <svg width="409px" height="55px" viewBox="0 0 409 55" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Poppins-Bold, Poppins" font-size="75" font-weight="bold">
+                <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" fontFamily="Poppins-Bold, Poppins" fontSize="75" fontWeight="bold">
                     <g id="homepage" transform="translate(-515.000000, -4989.000000)">
                         <g id="Group-10" transform="translate(424.000000, 4964.000000)">
                             <text id="SHOOTACE">

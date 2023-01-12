@@ -4,7 +4,13 @@ import Layout from '../component/layout/layout.js'
 const IndexPage = () => {
   return (
     <Layout>
-      Index Page Here
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            asdfasdf asdfasdfsadf
+          </div>
+        </div>
+      </div>
     </Layout>
   )
 }
