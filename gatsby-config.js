@@ -6,5 +6,5 @@ module.exports = {
     title: `Shoot Ace`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [],
 }
