@@ -8,7 +8,7 @@ import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube} from 'react-i
 const Footer = ()=> {
   return(
     <footer className={footer}>
-      <div className={`${container} ${footerStyles.footer}`}>
+      <div className={`container ${container} ${footerStyles.footer}`}>
         <div>
           <Link to="/">
             <svg width="409px" height="55px" viewBox="0 0 409 55" version="1.1" xmlns="http://www.w3.org/2000/svg">

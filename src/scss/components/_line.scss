@@ -1,0 +1,19 @@
+.ace-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+
+  span {
+    width: 75px;
+    height: 5px;
+  }
+
+  span:first-child {
+    background-color: #F5A623;
+  }
+
+  span:last-child {
+    background-color: #FFF;
+  }
+}

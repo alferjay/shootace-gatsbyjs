@@ -1,0 +1,28 @@
+.ace-hero {
+  position: relative;
+
+  .hero-image-bg {
+    position: absolute;
+    z-index: -1;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}

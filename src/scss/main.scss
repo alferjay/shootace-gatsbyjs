@@ -4,4 +4,8 @@
 @import './base/fonts';
 @import './base/reset';
 //layout
-@import './layout/grids'
+@import './layout/header';
+@import './layout/grids';
+//components
+@import './components/hero';
+@import './components/line';
